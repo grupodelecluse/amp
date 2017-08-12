@@ -6,6 +6,12 @@
 <meta content='width=device-width, initial-scale=1' name='viewport'>
 <style>
 body{padding:0;margin:0}
+  .post-body {
+    font-size: 13px;
+    line-height: 1.2em!important;
+    padding: 0px 7px 0px 1px;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+}  
 #caja-comentarios,#new-comment{
 
 width:100%;
@@ -62,12 +68,15 @@ a.dsq-widget-user{font-weight:bold;display:block!important;margin-bottom:5px;tex
 li.dsq-widget-item div:after,#new-comment p.dsq-widget-meta:after{content:'';display:block;border-bottom:1px solid #ddd;}
 li.dsq-widget-item:last-child div:after,#new-comment li.dsq-widget-item:last-child p.dsq-widget-meta:after{content:'';display:block;border-bottom:none;}
 .clear{clear:both}
-.post-body {font-size:14px;line-height:1.2em!important;padding:0;}
+
 @media screen and (max-width:800px){li.dsq-widget-item{width:50%}
 }
 @media screen and (max-width:414px){li.dsq-widget-item{width:100%}
 }
-
+a.dsq-widget-user {
+    font-weight: bold;
+    color: #0088ff;
+}
     .avatarRound {
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
 }
